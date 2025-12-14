@@ -1,7 +1,7 @@
 {
     "app-id" : "de.hummdudel.Libellus",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "47",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "command" : "de.hummdudel.Libellus",
     "finish-args" : [
@@ -30,8 +30,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "sha256": "0f698489426da31c055f2248129397b89cb6a7e5ca44327801d232375a945348",
-                    "url" : "https://github.com/qwertzuiopy/Libellus/archive/refs/tags/v1.1.1.tar.gz"
+                    "sha256": "67a8179b010932f15a8c65ee68adf75163b6bfd246b40dd54fa563859d8a0744",
+                    "url" : "https://github.com/qwertzuiopy/Libellus/archive/refs/tags/v1.1.2.1.tar.gz"
                 }
             ]
         }
