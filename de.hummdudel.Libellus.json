@@ -30,8 +30,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "sha256": "e8df0798a0a71306a123bfa1fdbfa02a941f1fc14bb89c082b999fa5a882ac65",
-                    "url" : "https://github.com/qwertzuiopy/Libellus/archive/refs/tags/v1.1.2.tar.gz"
+                    "sha256": "67a8179b010932f15a8c65ee68adf75163b6bfd246b40dd54fa563859d8a0744",
+                    "url" : "https://github.com/qwertzuiopy/Libellus/archive/refs/tags/v1.1.2.1.tar.gz"
                 }
             ]
         }
