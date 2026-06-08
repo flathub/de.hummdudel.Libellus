@@ -1,9 +1,12 @@
 {
-    "app-id" : "de.hummdudel.Libellus",
+    "id" : "de.hummdudel.Libellus",
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
-    "command" : "de.hummdudel.Libellus",
+    "sdk-extensions" : [
+        "org.freedesktop.Sdk.Extension.vala"
+    ],
+    "command" : "libellus",
     "finish-args" : [
         "--share=network",
         "--share=ipc",
@@ -11,6 +14,10 @@
         "--device=dri",
         "--socket=wayland"
     ],
+    "build-options" : {
+        "append-path" : "/usr/lib/sdk/vala/bin",
+        "prepend-ld-library-path" : "/usr/lib/sdk/vala/lib"
+    },
     "cleanup" : [
         "/include",
         "/lib/pkgconfig",
@@ -19,6 +26,7 @@
         "/share/gtk-doc",
         "/share/man",
         "/share/pkgconfig",
+        "/share/vala",
         "*.la",
         "*.a"
     ],
@@ -30,8 +38,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "sha256": "67a8179b010932f15a8c65ee68adf75163b6bfd246b40dd54fa563859d8a0744",
-                    "url" : "https://github.com/qwertzuiopy/Libellus/archive/refs/tags/v1.1.2.1.tar.gz"
+                    "sha356": "0ffecea2fb077d3c0206e34806d323f88703cb0e89dd2de7069261380aa9206d",
+                    "url" : "https://github.com/qwertzuiopy/Libellus/archive/refs/tags/v2.0.0.tar.gz"
                 }
             ]
         }
